@@ -1,7 +1,7 @@
 import { createContext, useEffect, useReducer, useContext } from "react";
 
 const CitiesContext = createContext();
-const Base_Url = "http://localhost:9000";
+const Base_Url = "https://my-json-server.typicode.com/ayush-11-c/world_tour";
 const initialState = {
   citites: [],
   isLoading: false,
